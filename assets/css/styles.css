@@ -1,1 +1,63 @@
 /* stylesheet  */
+*{
+    margin: 0;
+}
+
+.profile_image{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+
+}
+.footer > a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.quote_container{
+    height: 80vh;
+    background: url("/assets/images/bgimg.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    
+
+}
+
+.quote_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description_wrapper{
+    text-align: center;
+}
+
+.about_details_container{
+    height: 100vh;
+}
+
+.bg-image {
+    background-image: url('/assets/images/coding.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #info_card{
+    height: 300px;
+    background-color: whitesmoke;
+    margin: 20px;
+    
+  }
